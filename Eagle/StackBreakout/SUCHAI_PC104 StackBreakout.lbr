@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -470,10 +470,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="2.5" y1="25.4" x2="2.5" y2="60" width="0.254" layer="20"/>
 <wire x1="2.5" y1="60" x2="0" y2="62.23" width="0.254" layer="20"/>
 <wire x1="0" y1="62.23" x2="0" y2="89.88" width="0.254" layer="20"/>
-<hole x="5.13" y="8.1" drill="3.2"/>
-<hole x="90.86" y="4.29" drill="3.2"/>
-<hole x="90.86" y="84.3" drill="3.2"/>
-<hole x="5.13" y="81.76" drill="3.2"/>
+<hole x="5.1" y="8.08" drill="3.2"/>
+<hole x="90.83" y="4.27" drill="3.2"/>
+<hole x="90.84" y="84.27" drill="3.2"/>
+<hole x="5.1" y="81.74" drill="3.2"/>
 <wire x1="31.7065" y1="78.184" x2="31.7065" y2="11.636" width="0.127" layer="51"/>
 <wire x1="31.7065" y1="11.636" x2="29.2935" y2="11.636" width="0.127" layer="51"/>
 <wire x1="29.2935" y1="11.636" x2="29.2935" y2="78.184" width="0.127" layer="51"/>
@@ -609,10 +609,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="30.48" y1="13.18" x2="30.51" y2="76.68" width="0.254" layer="21" locked="yes"/>
 <wire x1="22.89" y1="13.18" x2="22.89" y2="76.68" width="0.254" layer="21" locked="yes"/>
 <wire x1="22.89" y1="76.68" x2="30.51" y2="76.68" width="0.254" layer="21" locked="yes"/>
-<pad name="P$1" x="5.13" y="8.1" drill="3.4" diameter="7"/>
-<pad name="P$2" x="5.13" y="81.76" drill="3.4" diameter="7"/>
-<pad name="P$3" x="90.86" y="4.29" drill="3.4" diameter="7"/>
-<pad name="P$4" x="90.86" y="84.3" drill="3.4" diameter="7"/>
+<pad name="P$1" x="5.1" y="8.08" drill="3.4" diameter="7"/>
+<pad name="P$2" x="5.1" y="81.74" drill="3.4" diameter="7"/>
+<pad name="P$3" x="90.83" y="4.27" drill="3.4" diameter="7"/>
+<pad name="P$4" x="90.84" y="84.27" drill="3.4" diameter="7"/>
 <text x="9.652" y="77.47" size="0.6096" layer="25">5V</text>
 <text x="9.652" y="74.93" size="0.6096" layer="25">5V</text>
 <text x="9.652" y="72.39" size="0.6096" layer="25">5V</text>
