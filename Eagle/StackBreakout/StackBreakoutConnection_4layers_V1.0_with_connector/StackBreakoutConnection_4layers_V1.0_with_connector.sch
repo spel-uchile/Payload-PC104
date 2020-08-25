@@ -1388,7 +1388,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <wire x1="-139.7" y1="10.16" x2="-142.24" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="AUX1" class="0">
+<net name="AUX_1" class="0">
 <segment>
 <pinref part="J1" gate="B" pin="37"/>
 <pinref part="J3" gate="B" pin="37"/>
@@ -1397,7 +1397,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <wire x1="-139.7" y1="7.62" x2="-167.64" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="AUX3" class="0">
+<net name="AUX_3" class="0">
 <segment>
 <pinref part="J1" gate="B" pin="39"/>
 <pinref part="J3" gate="B" pin="39"/>
@@ -1496,7 +1496,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <wire x1="-104.14" y1="10.16" x2="-101.6" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="AUX2" class="0">
+<net name="AUX_2" class="0">
 <segment>
 <pinref part="J1" gate="B" pin="38"/>
 <pinref part="J3" gate="B" pin="38"/>
@@ -1505,7 +1505,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <wire x1="-104.14" y1="7.62" x2="-76.2" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="AUX4" class="0">
+<net name="AUX_4" class="0">
 <segment>
 <pinref part="J1" gate="B" pin="40"/>
 <pinref part="J3" gate="B" pin="40"/>

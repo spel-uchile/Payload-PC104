@@ -3,7 +3,7 @@
 <eagle version="9.1.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -731,11 +731,11 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="1125375" x="37.084" y="3.81" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="37.084" y="3.81" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="X2" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="53261-08" value="53261-08" x="53.467" y="3.81" rot="R180">
-<attribute name="MF" value="MOLEX" x="53.467" y="3.81" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="53.467" y="3.81" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="1125376" x="53.467" y="3.81" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="53.467" y="3.81" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="X2" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="53261-08" value="53261-08" x="54.229" y="4.318" rot="R180">
+<attribute name="MF" value="MOLEX" x="54.229" y="4.318" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="54.229" y="4.318" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="1125376" x="54.229" y="4.318" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="54.229" y="4.318" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 </elements>
 <signals>
@@ -1045,20 +1045,6 @@ design rules under a new name.</description>
 <wire x1="28.330596875" y1="52.555403125" x2="14.015403125" y2="52.555403125" width="0.508" layer="16"/>
 <wire x1="14.015403125" y1="52.555403125" x2="12.72" y2="51.26" width="0.508" layer="16"/>
 </signal>
-<signal name="AUX1">
-<contactref element="J1" pad="37"/>
-<contactref element="J3" pad="37"/>
-<wire x1="29.626" y1="58.88" x2="28.330596875" y2="60.175403125" width="0.508" layer="16"/>
-<wire x1="28.330596875" y1="60.175403125" x2="14.015403125" y2="60.175403125" width="0.508" layer="16"/>
-<wire x1="14.015403125" y1="60.175403125" x2="12.72" y2="58.88" width="0.508" layer="16"/>
-</signal>
-<signal name="AUX3">
-<contactref element="J1" pad="39"/>
-<contactref element="J3" pad="39"/>
-<wire x1="29.626" y1="61.42" x2="28.330596875" y2="62.715403125" width="0.508" layer="16"/>
-<wire x1="28.330596875" y1="62.715403125" x2="14.015403125" y2="62.715403125" width="0.508" layer="16"/>
-<wire x1="14.015403125" y1="62.715403125" x2="12.72" y2="61.42" width="0.508" layer="16"/>
-</signal>
 <signal name="I2C-SDA">
 <contactref element="J1" pad="41"/>
 <contactref element="J3" pad="41"/>
@@ -1121,20 +1107,6 @@ design rules under a new name.</description>
 <wire x1="27.086" y1="51.26" x2="25.790596875" y2="52.555403125" width="0.508" layer="15"/>
 <wire x1="25.790596875" y1="52.555403125" x2="11.475403125" y2="52.555403125" width="0.508" layer="15"/>
 <wire x1="11.475403125" y1="52.555403125" x2="10.18" y2="51.26" width="0.508" layer="15"/>
-</signal>
-<signal name="AUX2">
-<contactref element="J1" pad="38"/>
-<contactref element="J3" pad="38"/>
-<wire x1="27.086" y1="58.88" x2="25.790596875" y2="60.175403125" width="0.508" layer="15"/>
-<wire x1="25.790596875" y1="60.175403125" x2="11.475403125" y2="60.175403125" width="0.508" layer="15"/>
-<wire x1="11.475403125" y1="60.175403125" x2="10.18" y2="58.88" width="0.508" layer="15"/>
-</signal>
-<signal name="AUX4">
-<contactref element="J1" pad="40"/>
-<contactref element="J3" pad="40"/>
-<wire x1="27.086" y1="61.42" x2="25.790596875" y2="62.715403125" width="0.508" layer="15"/>
-<wire x1="25.790596875" y1="62.715403125" x2="11.475403125" y2="62.715403125" width="0.508" layer="15"/>
-<wire x1="11.475403125" y1="62.715403125" x2="10.18" y2="61.42" width="0.508" layer="15"/>
 </signal>
 <signal name="N$47">
 <contactref element="J1" pad="42"/>
@@ -1529,15 +1501,39 @@ design rules under a new name.</description>
 </signal>
 <signal name="AUX_4">
 <contactref element="X2" pad="1"/>
+<contactref element="J1" pad="40"/>
+<contactref element="J3" pad="40"/>
+<wire x1="27.086" y1="61.42" x2="25.790596875" y2="62.715403125" width="0.508" layer="15"/>
+<wire x1="25.790596875" y1="62.715403125" x2="11.475403125" y2="62.715403125" width="0.508" layer="15"/>
+<wire x1="11.475403125" y1="62.715403125" x2="10.18" y2="61.42" width="0.508" layer="15"/>
+<wire x1="49.854" y1="6.818" x2="27.086" y2="61.42" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AUX_3">
 <contactref element="X2" pad="2"/>
+<contactref element="J1" pad="39"/>
+<contactref element="J3" pad="39"/>
+<wire x1="29.626" y1="61.42" x2="28.330596875" y2="62.715403125" width="0.508" layer="16"/>
+<wire x1="28.330596875" y1="62.715403125" x2="14.015403125" y2="62.715403125" width="0.508" layer="16"/>
+<wire x1="14.015403125" y1="62.715403125" x2="12.72" y2="61.42" width="0.508" layer="16"/>
+<wire x1="51.104" y1="6.818" x2="29.626" y2="61.42" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AUX_2">
 <contactref element="X2" pad="3"/>
+<contactref element="J1" pad="38"/>
+<contactref element="J3" pad="38"/>
+<wire x1="27.086" y1="58.88" x2="25.790596875" y2="60.175403125" width="0.508" layer="15"/>
+<wire x1="25.790596875" y1="60.175403125" x2="11.475403125" y2="60.175403125" width="0.508" layer="15"/>
+<wire x1="11.475403125" y1="60.175403125" x2="10.18" y2="58.88" width="0.508" layer="15"/>
+<wire x1="52.354" y1="6.818" x2="27.086" y2="58.88" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AUX_1">
 <contactref element="X2" pad="4"/>
+<contactref element="J1" pad="37"/>
+<contactref element="J3" pad="37"/>
+<wire x1="29.626" y1="58.88" x2="28.330596875" y2="60.175403125" width="0.508" layer="16"/>
+<wire x1="28.330596875" y1="60.175403125" x2="14.015403125" y2="60.175403125" width="0.508" layer="16"/>
+<wire x1="14.015403125" y1="60.175403125" x2="12.72" y2="58.88" width="0.508" layer="16"/>
+<wire x1="53.604" y1="6.818" x2="29.626" y2="58.88" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="UART1_TX">
 <contactref element="X2" pad="5"/>
@@ -1546,7 +1542,7 @@ design rules under a new name.</description>
 <wire x1="27.086" y1="56.34" x2="25.790596875" y2="57.635403125" width="0.508" layer="15"/>
 <wire x1="25.790596875" y1="57.635403125" x2="11.475403125" y2="57.635403125" width="0.508" layer="15"/>
 <wire x1="11.475403125" y1="57.635403125" x2="10.18" y2="56.34" width="0.508" layer="15"/>
-<wire x1="54.092" y1="6.31" x2="27.086" y2="56.34" width="0" layer="19" extent="1-1"/>
+<wire x1="54.854" y1="6.818" x2="27.086" y2="56.34" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="UART1_RX">
 <contactref element="X2" pad="6"/>
@@ -1555,7 +1551,7 @@ design rules under a new name.</description>
 <wire x1="29.626" y1="56.34" x2="28.330596875" y2="57.635403125" width="0.508" layer="16"/>
 <wire x1="28.330596875" y1="57.635403125" x2="14.015403125" y2="57.635403125" width="0.508" layer="16"/>
 <wire x1="14.015403125" y1="57.635403125" x2="12.72" y2="56.34" width="0.508" layer="16"/>
-<wire x1="55.342" y1="6.31" x2="29.626" y2="56.34" width="0" layer="19" extent="1-1"/>
+<wire x1="56.104" y1="6.818" x2="29.626" y2="56.34" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="UART0_TX">
 <contactref element="X2" pad="7"/>
@@ -1564,7 +1560,7 @@ design rules under a new name.</description>
 <wire x1="27.086" y1="53.8" x2="25.790596875" y2="55.095403125" width="0.508" layer="15"/>
 <wire x1="25.790596875" y1="55.095403125" x2="11.475403125" y2="55.095403125" width="0.508" layer="15"/>
 <wire x1="11.475403125" y1="55.095403125" x2="10.18" y2="53.8" width="0.508" layer="15"/>
-<wire x1="56.592" y1="6.31" x2="27.086" y2="53.8" width="0" layer="19" extent="1-1"/>
+<wire x1="57.354" y1="6.818" x2="27.086" y2="53.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="UART0_RX">
 <contactref element="X2" pad="8"/>
@@ -1573,7 +1569,7 @@ design rules under a new name.</description>
 <wire x1="29.626" y1="53.8" x2="28.330596875" y2="55.095403125" width="0.508" layer="16"/>
 <wire x1="28.330596875" y1="55.095403125" x2="14.015403125" y2="55.095403125" width="0.508" layer="16"/>
 <wire x1="14.015403125" y1="55.095403125" x2="12.72" y2="53.8" width="0.508" layer="16"/>
-<wire x1="57.842" y1="6.31" x2="29.626" y2="53.8" width="0" layer="19" extent="1-1"/>
+<wire x1="58.604" y1="6.818" x2="29.626" y2="53.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VAUX">
 <contactref element="X1" pad="6"/>
