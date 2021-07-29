@@ -180,7 +180,7 @@
 <wire x1="96.0374" y1="44.7548" x2="96.0374" y2="54.9656" width="0.001" layer="20"/>
 <wire x1="96.0374" y1="54.9656" x2="90.9828" y2="60.0202" width="0.001" layer="20"/>
 <wire x1="90.9828" y1="60.0202" x2="90.9828" y2="72.771" width="0.001" layer="20"/>
-<text x="21.082" y="83.058" size="1.27" layer="21" font="vector" ratio="9" align="center">STACKBREAKOUT V1.0
+<text x="35.052" y="87.884" size="1.27" layer="21" font="vector" ratio="9" align="center">STACKBREAKOUT V1.0
 SPEL - UCHILE</text>
 </plain>
 <libraries>
@@ -766,31 +766,33 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="21.082" y="3.81" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="24.332" y="4.31" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="X2" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="53261-08" value="53261-08" x="36.957" y="3.556" smashed="yes" rot="R180">
-<attribute name="MF" value="MOLEX" x="36.957" y="3.556" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="36.957" y="3.556" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="42.582" y="0.681" size="1.27" layer="25" rot="R180"/>
-<attribute name="OC_FARNELL" value="1125376" x="36.957" y="3.556" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="36.957" y="3.556" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="40.207" y="4.056" size="1.27" layer="27" rot="R180"/>
+<element name="X2" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="53261-08" value="53261-08" x="64.389" y="3.81" smashed="yes" rot="R180">
+<attribute name="MF" value="MOLEX" x="64.389" y="3.81" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="64.389" y="3.81" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="70.014" y="0.935" size="1.27" layer="25" rot="R180"/>
+<attribute name="OC_FARNELL" value="1125376" x="64.389" y="3.81" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="64.389" y="3.81" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="67.639" y="4.31" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="J3" library="MolexP24" package="CON_2086592440_MOL" value="2086592440" x="70.104" y="11.938" smashed="yes">
-<attribute name="BUILT_BY" value="Molex_Team" x="70.104" y="11.938" size="1.778" layer="27" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="70.104" y="11.938" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="2.00mm Pitch, iGrid PCB Header, Dual Row, Right-Angle, Through Hole, 0.10µm Gold (Au) Plating, Positive Lock, 24 Circuits, Tray, 3.20mm PC Tail Length, Natural" x="70.104" y="11.938" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="2086592440" x="70.104" y="11.938" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="72.5932" y="9.271" size="1.27" layer="25" ratio="6" rot="SR0"/>
-<attribute name="SOURCELIBRARY" value="Add_to_database_2021-04-21" x="70.104" y="11.938" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR" value="Molex Connector Corporation" x="70.104" y="11.938" size="1.778" layer="27" display="off"/>
+<element name="J3" library="MolexP24" package="CON_2086592440_MOL" value="2086592440" x="28.956" y="77.978" smashed="yes" rot="R180">
+<attribute name="BUILT_BY" value="Molex_Team" x="28.956" y="77.978" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="28.956" y="77.978" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="2.00mm Pitch, iGrid PCB Header, Dual Row, Right-Angle, Through Hole, 0.10µm Gold (Au) Plating, Positive Lock, 24 Circuits, Tray, 3.20mm PC Tail Length, Natural" x="28.956" y="77.978" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="2086592440" x="28.956" y="77.978" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="43.2308" y="68.453" size="1.27" layer="25" ratio="6" rot="SR180"/>
+<attribute name="SOURCELIBRARY" value="Add_to_database_2021-04-21" x="28.956" y="77.978" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="41.6814" y="68.453" size="1.27" layer="27" ratio="6" rot="SR180"/>
+<attribute name="VENDOR" value="Molex Connector Corporation" x="28.956" y="77.978" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J4" library="MolexP24" package="CON_2086592440_MOL" value="2086592440" x="59.69" y="77.47" smashed="yes" rot="MR180">
-<attribute name="BUILT_BY" value="Molex_Team" x="59.69" y="77.47" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="59.69" y="77.47" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DESCRIPTION" value="2.00mm Pitch, iGrid PCB Header, Dual Row, Right-Angle, Through Hole, 0.10µm Gold (Au) Plating, Positive Lock, 24 Circuits, Tray, 3.20mm PC Tail Length, Natural" x="59.69" y="77.47" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="2086592440" x="59.69" y="77.47" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="62.1792" y="76.073" size="1.27" layer="26" ratio="6" rot="SMR180"/>
-<attribute name="SOURCELIBRARY" value="Add_to_database_2021-04-21" x="59.69" y="77.47" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VENDOR" value="Molex Connector Corporation" x="59.69" y="77.47" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="J4" library="MolexP24" package="CON_2086592440_MOL" value="2086592440" x="53.086" y="12.192" smashed="yes">
+<attribute name="BUILT_BY" value="Molex_Team" x="53.086" y="12.192" size="1.778" layer="27" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="53.086" y="12.192" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="2.00mm Pitch, iGrid PCB Header, Dual Row, Right-Angle, Through Hole, 0.10µm Gold (Au) Plating, Positive Lock, 24 Circuits, Tray, 3.20mm PC Tail Length, Natural" x="53.086" y="12.192" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="2086592440" x="53.086" y="12.192" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="38.8112" y="21.717" size="1.27" layer="25" ratio="6" rot="SR0"/>
+<attribute name="SOURCELIBRARY" value="Add_to_database_2021-04-21" x="53.086" y="12.192" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="40.3606" y="21.717" size="1.27" layer="27" ratio="6" rot="SR0"/>
+<attribute name="VENDOR" value="Molex Connector Corporation" x="53.086" y="12.192" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -919,26 +921,26 @@ design rules under a new name.</description>
 <contactref element="J4" pad="17"/>
 <contactref element="J4" pad="18"/>
 <contactref element="J4" pad="20"/>
-<wire x1="66.1162" y1="13.9446" x2="58.1152" y2="13.9446" width="0" layer="19" extent="1-1"/>
-<wire x1="7.64" y1="48.72" x2="66.1162" y2="13.9446" width="0" layer="19" extent="1-1"/>
+<wire x1="32.9438" y1="75.9714" x2="40.9448" y2="75.9714" width="0" layer="19" extent="1-1"/>
+<wire x1="7.64" y1="48.72" x2="32.9438" y2="75.9714" width="0" layer="19" extent="1-1"/>
 <wire x1="5.1" y1="48.72" x2="7.64" y2="48.72" width="0" layer="19" extent="1-1"/>
 <wire x1="5.1" y1="51.26" x2="5.1" y2="48.72" width="0" layer="19" extent="1-1"/>
 <wire x1="10.18" y1="43.64" x2="7.64" y2="48.72" width="0" layer="19" extent="1-1"/>
 <wire x1="10.18" y1="25.86" x2="10.18" y2="43.64" width="0" layer="19" extent="1-1"/>
 <wire x1="21.707" y1="6.31" x2="10.18" y2="25.86" width="0" layer="19" extent="1-1"/>
-<wire x1="41.6814" y1="75.4634" x2="21.707" y2="6.31" width="0" layer="19" extent="1-1"/>
-<wire x1="43.688" y1="75.4634" x2="41.6814" y2="75.4634" width="0" layer="19" extent="1-1"/>
-<wire x1="43.688" y1="77.47" x2="43.688" y2="75.4634" width="0" layer="19" extent="1-1"/>
+<wire x1="35.0774" y1="14.1986" x2="21.707" y2="6.31" width="0" layer="19" extent="1-1"/>
+<wire x1="37.084" y1="14.1986" x2="35.0774" y2="14.1986" width="0" layer="19" extent="1-1"/>
+<wire x1="37.084" y1="12.192" x2="37.084" y2="14.1986" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN-L">
 <contactref element="J1" pad="1"/>
 <contactref element="J3" pad="1"/>
-<wire x1="70.104" y1="11.938" x2="12.72" y2="13.16" width="0" layer="19" extent="1-1"/>
+<wire x1="12.72" y1="13.16" x2="28.956" y2="77.978" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN-H">
 <contactref element="J1" pad="3"/>
 <contactref element="J3" pad="2"/>
-<wire x1="12.72" y1="15.7" x2="70.104" y2="13.9446" width="0" layer="19" extent="1-1"/>
+<wire x1="12.72" y1="15.7" x2="28.956" y2="75.9714" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RX">
 <contactref element="J1" pad="19"/>
@@ -949,27 +951,27 @@ design rules under a new name.</description>
 <signal name="I2C-SDA">
 <contactref element="J1" pad="41"/>
 <contactref element="J3" pad="23"/>
-<wire x1="12.72" y1="63.96" x2="48.1076" y2="11.938" width="0" layer="19" extent="1-1"/>
+<wire x1="12.72" y1="63.96" x2="50.9524" y2="77.978" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I2C-SCL">
 <contactref element="J1" pad="43"/>
 <contactref element="J3" pad="24"/>
-<wire x1="12.72" y1="66.5" x2="48.1076" y2="13.9446" width="0" layer="19" extent="1-1"/>
+<wire x1="12.72" y1="66.5" x2="50.9524" y2="75.9714" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OUT1_3V3">
 <contactref element="J1" pad="47"/>
 <contactref element="J4" pad="1"/>
-<wire x1="59.69" y1="77.47" x2="12.72" y2="71.58" width="0" layer="19" extent="1-1"/>
+<wire x1="53.086" y1="12.192" x2="12.72" y2="71.58" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OUT2_3V3">
 <contactref element="J1" pad="49"/>
 <contactref element="J4" pad="2"/>
-<wire x1="59.69" y1="75.4634" x2="12.72" y2="74.12" width="0" layer="19" extent="1-1"/>
+<wire x1="53.086" y1="14.1986" x2="12.72" y2="74.12" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OUT3_3V3">
 <contactref element="J1" pad="51"/>
 <contactref element="J4" pad="3"/>
-<wire x1="57.6834" y1="77.47" x2="12.72" y2="76.66" width="0" layer="19" extent="1-1"/>
+<wire x1="51.0794" y1="12.192" x2="12.72" y2="76.66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V0_IN">
 <contactref element="J1" pad="32"/>
@@ -977,25 +979,25 @@ design rules under a new name.</description>
 <signal name="OUT4_5V0">
 <contactref element="J1" pad="48"/>
 <contactref element="J4" pad="4"/>
-<wire x1="57.6834" y1="75.4634" x2="10.18" y2="71.58" width="0" layer="19" extent="1-1"/>
+<wire x1="51.0794" y1="14.1986" x2="10.18" y2="71.58" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OUT5_5V0">
 <contactref element="J1" pad="50"/>
 <contactref element="J4" pad="5"/>
-<wire x1="55.7022" y1="77.47" x2="10.18" y2="74.12" width="0" layer="19" extent="1-1"/>
+<wire x1="49.0982" y1="12.192" x2="10.18" y2="74.12" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OUT6_5V0">
 <contactref element="J1" pad="52"/>
 <contactref element="J4" pad="6"/>
-<wire x1="10.18" y1="76.66" x2="55.7022" y2="75.4634" width="0" layer="19" extent="1-1"/>
+<wire x1="49.0982" y1="14.1986" x2="10.18" y2="76.66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V0">
 <contactref element="J2" pad="25"/>
 <contactref element="J2" pad="26"/>
 <contactref element="J4" pad="13"/>
 <contactref element="J4" pad="14"/>
-<wire x1="47.7012" y1="77.47" x2="47.7012" y2="75.4634" width="0" layer="19" extent="1-1"/>
-<wire x1="7.64" y1="43.64" x2="47.7012" y2="75.4634" width="0" layer="19" extent="1-1"/>
+<wire x1="41.0972" y1="12.192" x2="41.0972" y2="14.1986" width="0" layer="19" extent="1-1"/>
+<wire x1="7.64" y1="43.64" x2="41.0972" y2="14.1986" width="0" layer="19" extent="1-1"/>
 <wire x1="5.1" y1="43.64" x2="7.64" y2="43.64" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3V3">
@@ -1004,8 +1006,8 @@ design rules under a new name.</description>
 <contactref element="J4" pad="15"/>
 <contactref element="J4" pad="16"/>
 <wire x1="5.1" y1="46.18" x2="7.64" y2="46.18" width="0" layer="19" extent="1-1"/>
-<wire x1="45.6946" y1="75.4634" x2="7.64" y2="46.18" width="0" layer="19" extent="1-1"/>
-<wire x1="45.6946" y1="77.47" x2="45.6946" y2="75.4634" width="0" layer="19" extent="1-1"/>
+<wire x1="39.0906" y1="14.1986" x2="7.64" y2="46.18" width="0" layer="19" extent="1-1"/>
+<wire x1="39.0906" y1="12.192" x2="39.0906" y2="14.1986" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RX2">
 <contactref element="J2" pad="35"/>
@@ -1016,95 +1018,87 @@ design rules under a new name.</description>
 <signal name="V_BAT">
 <contactref element="J2" pad="45"/>
 <contactref element="J2" pad="46"/>
-<contactref element="J4" pad="23"/>
-<contactref element="J4" pad="24"/>
 <wire x1="5.1" y1="69.04" x2="7.64" y2="69.04" width="0" layer="19" extent="1-1"/>
-<wire x1="37.6936" y1="75.4634" x2="7.64" y2="69.04" width="0" layer="19" extent="1-1"/>
-<wire x1="37.6936" y1="77.47" x2="37.6936" y2="75.4634" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="EPS_RX">
 <contactref element="J2" pad="36"/>
-<contactref element="J4" pad="21"/>
-<wire x1="39.7002" y1="77.47" x2="5.1" y2="56.34" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="EPS_TX">
 <contactref element="J2" pad="38"/>
-<contactref element="J4" pad="22"/>
-<wire x1="39.7002" y1="75.4634" x2="5.1" y2="58.88" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AGND">
 <contactref element="J2" pad="31"/>
 <contactref element="J4" pad="19"/>
-<wire x1="41.6814" y1="77.47" x2="7.64" y2="51.26" width="0" layer="19" extent="1-1"/>
+<wire x1="35.0774" y1="12.192" x2="7.64" y2="51.26" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AUX_4">
 <contactref element="X2" pad="1"/>
 <contactref element="J1" pad="40"/>
 <contactref element="J3" pad="22"/>
-<wire x1="10.18" y1="61.42" x2="50.1142" y2="13.9446" width="0" layer="19" extent="1-1"/>
-<wire x1="32.582" y1="6.056" x2="10.18" y2="61.42" width="0" layer="19" extent="1-1"/>
+<wire x1="10.18" y1="61.42" x2="48.9458" y2="75.9714" width="0" layer="19" extent="1-1"/>
+<wire x1="60.014" y1="6.31" x2="10.18" y2="61.42" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AUX_3">
 <contactref element="X2" pad="2"/>
 <contactref element="J1" pad="39"/>
 <contactref element="J3" pad="21"/>
-<wire x1="12.72" y1="61.42" x2="50.1142" y2="11.938" width="0" layer="19" extent="1-1"/>
-<wire x1="33.832" y1="6.056" x2="12.72" y2="61.42" width="0" layer="19" extent="1-1"/>
+<wire x1="12.72" y1="61.42" x2="48.9458" y2="77.978" width="0" layer="19" extent="1-1"/>
+<wire x1="61.264" y1="6.31" x2="12.72" y2="61.42" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AUX_2">
 <contactref element="X2" pad="3"/>
 <contactref element="J1" pad="38"/>
 <contactref element="J3" pad="20"/>
-<wire x1="10.18" y1="58.88" x2="52.0954" y2="13.9446" width="0" layer="19" extent="1-1"/>
-<wire x1="35.082" y1="6.056" x2="10.18" y2="58.88" width="0" layer="19" extent="1-1"/>
+<wire x1="10.18" y1="58.88" x2="46.9646" y2="75.9714" width="0" layer="19" extent="1-1"/>
+<wire x1="62.514" y1="6.31" x2="10.18" y2="58.88" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AUX_1">
 <contactref element="X2" pad="4"/>
 <contactref element="J1" pad="37"/>
 <contactref element="J3" pad="19"/>
-<wire x1="12.72" y1="58.88" x2="52.0954" y2="11.938" width="0" layer="19" extent="1-1"/>
-<wire x1="36.332" y1="6.056" x2="12.72" y2="58.88" width="0" layer="19" extent="1-1"/>
+<wire x1="12.72" y1="58.88" x2="46.9646" y2="77.978" width="0" layer="19" extent="1-1"/>
+<wire x1="63.764" y1="6.31" x2="12.72" y2="58.88" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="UART1_TX">
 <contactref element="X2" pad="5"/>
 <contactref element="J1" pad="36"/>
 <contactref element="J3" pad="18"/>
-<wire x1="10.18" y1="56.34" x2="54.102" y2="13.9446" width="0" layer="19" extent="1-1"/>
-<wire x1="37.582" y1="6.056" x2="10.18" y2="56.34" width="0" layer="19" extent="1-1"/>
+<wire x1="10.18" y1="56.34" x2="44.958" y2="75.9714" width="0" layer="19" extent="1-1"/>
+<wire x1="65.014" y1="6.31" x2="10.18" y2="56.34" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="UART1_RX">
 <contactref element="X2" pad="6"/>
 <contactref element="J1" pad="35"/>
 <contactref element="J3" pad="17"/>
-<wire x1="12.72" y1="56.34" x2="54.102" y2="11.938" width="0" layer="19" extent="1-1"/>
-<wire x1="38.832" y1="6.056" x2="12.72" y2="56.34" width="0" layer="19" extent="1-1"/>
+<wire x1="12.72" y1="56.34" x2="44.958" y2="77.978" width="0" layer="19" extent="1-1"/>
+<wire x1="66.264" y1="6.31" x2="12.72" y2="56.34" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="UART0_TX">
 <contactref element="X2" pad="7"/>
 <contactref element="J1" pad="34"/>
 <contactref element="J3" pad="16"/>
-<wire x1="10.18" y1="53.8" x2="56.1086" y2="13.9446" width="0" layer="19" extent="1-1"/>
-<wire x1="40.082" y1="6.056" x2="10.18" y2="53.8" width="0" layer="19" extent="1-1"/>
+<wire x1="10.18" y1="53.8" x2="42.9514" y2="75.9714" width="0" layer="19" extent="1-1"/>
+<wire x1="67.514" y1="6.31" x2="10.18" y2="53.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="UART0_RX">
 <contactref element="X2" pad="8"/>
 <contactref element="J1" pad="33"/>
 <contactref element="J3" pad="15"/>
-<wire x1="12.72" y1="53.8" x2="56.1086" y2="11.938" width="0" layer="19" extent="1-1"/>
-<wire x1="41.332" y1="6.056" x2="12.72" y2="53.8" width="0" layer="19" extent="1-1"/>
+<wire x1="12.72" y1="53.8" x2="42.9514" y2="77.978" width="0" layer="19" extent="1-1"/>
+<wire x1="68.764" y1="6.31" x2="12.72" y2="53.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VAUX">
 <contactref element="X1" pad="6"/>
 <contactref element="J1" pad="10"/>
 <contactref element="J3" pad="8"/>
-<wire x1="10.18" y1="23.32" x2="64.1096" y2="13.9446" width="0" layer="19" extent="1-1"/>
+<wire x1="10.18" y1="23.32" x2="34.9504" y2="75.9714" width="0" layer="19" extent="1-1"/>
 <wire x1="24.207" y1="6.31" x2="10.18" y2="23.32" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GSSB_VCC2">
 <contactref element="X1" pad="5"/>
 <contactref element="J1" pad="7"/>
 <contactref element="J3" pad="7"/>
-<wire x1="12.72" y1="20.78" x2="64.1096" y2="11.938" width="0" layer="19" extent="1-1"/>
+<wire x1="12.72" y1="20.78" x2="34.9504" y2="77.978" width="0" layer="19" extent="1-1"/>
 <wire x1="22.957" y1="6.31" x2="12.72" y2="20.78" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GSSB_VCC">
@@ -1113,8 +1107,8 @@ design rules under a new name.</description>
 <contactref element="J3" pad="5"/>
 <contactref element="J1" pad="25"/>
 <contactref element="J3" pad="13"/>
-<wire x1="58.1152" y1="11.938" x2="66.1162" y2="11.938" width="0" layer="19" extent="1-1"/>
-<wire x1="12.72" y1="43.64" x2="58.1152" y2="11.938" width="0" layer="19" extent="1-1"/>
+<wire x1="40.9448" y1="77.978" x2="32.9438" y2="77.978" width="0" layer="19" extent="1-1"/>
+<wire x1="12.72" y1="43.64" x2="40.9448" y2="77.978" width="0" layer="19" extent="1-1"/>
 <wire x1="10.18" y1="20.78" x2="12.72" y2="43.64" width="0" layer="19" extent="1-1"/>
 <wire x1="20.457" y1="6.31" x2="10.18" y2="20.78" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -1122,50 +1116,62 @@ design rules under a new name.</description>
 <contactref element="X1" pad="2"/>
 <contactref element="J1" pad="11"/>
 <contactref element="J3" pad="4"/>
-<wire x1="12.72" y1="25.86" x2="68.0974" y2="13.9446" width="0" layer="19" extent="1-1"/>
+<wire x1="12.72" y1="25.86" x2="30.9626" y2="75.9714" width="0" layer="19" extent="1-1"/>
 <wire x1="19.207" y1="6.31" x2="12.72" y2="25.86" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I2C2_SDA2">
 <contactref element="X1" pad="1"/>
 <contactref element="J1" pad="9"/>
 <contactref element="J3" pad="3"/>
-<wire x1="12.72" y1="23.32" x2="68.0974" y2="11.938" width="0" layer="19" extent="1-1"/>
+<wire x1="12.72" y1="23.32" x2="30.9626" y2="77.978" width="0" layer="19" extent="1-1"/>
 <wire x1="17.957" y1="6.31" x2="12.72" y2="23.32" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI0_CS1">
 <contactref element="J1" pad="21"/>
 <contactref element="J3" pad="9"/>
-<wire x1="12.72" y1="38.56" x2="62.103" y2="11.938" width="0" layer="19" extent="1-1"/>
+<wire x1="12.72" y1="38.56" x2="36.957" y2="77.978" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI0_MISO">
 <contactref element="J1" pad="22"/>
 <contactref element="J3" pad="10"/>
-<wire x1="10.18" y1="38.56" x2="62.103" y2="13.9446" width="0" layer="19" extent="1-1"/>
+<wire x1="10.18" y1="38.56" x2="36.957" y2="75.9714" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI0_MOSI">
 <contactref element="J1" pad="23"/>
 <contactref element="J3" pad="11"/>
-<wire x1="12.72" y1="41.1" x2="60.0964" y2="11.938" width="0" layer="19" extent="1-1"/>
+<wire x1="12.72" y1="41.1" x2="38.9636" y2="77.978" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI0_SCK">
 <contactref element="J1" pad="24"/>
 <contactref element="J3" pad="12"/>
-<wire x1="10.18" y1="41.1" x2="60.0964" y2="13.9446" width="0" layer="19" extent="1-1"/>
+<wire x1="10.18" y1="41.1" x2="38.9636" y2="75.9714" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$21">
+<contactref element="J4" pad="21"/>
+</signal>
+<signal name="N$22">
+<contactref element="J4" pad="22"/>
+</signal>
+<signal name="N$23">
+<contactref element="J4" pad="23"/>
+</signal>
+<signal name="N$24">
+<contactref element="J4" pad="24"/>
 </signal>
 <signal name="SPI_MISO">
 <contactref element="J2" pad="1"/>
 <contactref element="J4" pad="7"/>
-<wire x1="7.64" y1="13.16" x2="53.6956" y2="77.47" width="0" layer="19" extent="1-1"/>
+<wire x1="7.64" y1="13.16" x2="47.0916" y2="12.192" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI_SCK">
 <contactref element="J2" pad="3"/>
 <contactref element="J4" pad="9"/>
-<wire x1="7.64" y1="15.7" x2="51.689" y2="77.47" width="0" layer="19" extent="1-1"/>
+<wire x1="7.64" y1="15.7" x2="45.085" y2="12.192" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI_MOSI">
 <contactref element="J2" pad="2"/>
 <contactref element="J4" pad="8"/>
-<wire x1="5.1" y1="13.16" x2="53.6956" y2="75.4634" width="0" layer="19" extent="1-1"/>
+<wire x1="5.1" y1="13.16" x2="47.0916" y2="14.1986" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI_CS0">
 <contactref element="J2" pad="4"/>
@@ -1174,9 +1180,9 @@ design rules under a new name.</description>
 <contactref element="J4" pad="10"/>
 <contactref element="J4" pad="11"/>
 <contactref element="J4" pad="12"/>
-<wire x1="49.6824" y1="75.4634" x2="51.689" y2="75.4634" width="0" layer="19" extent="1-1"/>
-<wire x1="49.6824" y1="77.47" x2="49.6824" y2="75.4634" width="0" layer="19" extent="1-1"/>
-<wire x1="7.64" y1="18.24" x2="49.6824" y2="75.4634" width="0" layer="19" extent="1-1"/>
+<wire x1="43.0784" y1="14.1986" x2="45.085" y2="14.1986" width="0" layer="19" extent="1-1"/>
+<wire x1="43.0784" y1="12.192" x2="43.0784" y2="14.1986" width="0" layer="19" extent="1-1"/>
+<wire x1="7.64" y1="18.24" x2="43.0784" y2="14.1986" width="0" layer="19" extent="1-1"/>
 <wire x1="5.1" y1="18.24" x2="7.64" y2="18.24" width="0" layer="19" extent="1-1"/>
 <wire x1="5.1" y1="15.7" x2="5.1" y2="18.24" width="0" layer="19" extent="1-1"/>
 </signal>
