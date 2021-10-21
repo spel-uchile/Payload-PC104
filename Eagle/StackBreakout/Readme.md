@@ -4,6 +4,9 @@ Stack Breakout - 4 capas
 
 Historial
 
+2021-10-21
+Se actualizan el orden los OUT pin de voltaje de acuerdo a la configuración de pinout de SPEL.
+
 2020-08-12
 Se incorpora conector con conexión I2C y UART.
 
