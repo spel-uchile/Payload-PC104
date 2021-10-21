@@ -1977,7 +1977,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <part name="GSSB_I2C_IN" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="53?-06" device="261" package3d_urn="urn:adsk.eagle:package:8078533/1"/>
 <part name="UART_IN" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="53?-08" device="261" package3d_urn="urn:adsk.eagle:package:8078502/1"/>
 <part name="V_OUT" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="53?-12" device="261" package3d_urn="urn:adsk.eagle:package:8078506/1"/>
-<part name="X4" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="53?-12" device="261" package3d_urn="urn:adsk.eagle:package:8078506/1"/>
+<part name="CAN/UART/I2C" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="53?-12" device="261" package3d_urn="urn:adsk.eagle:package:8078506/1"/>
 <part name="BAT_IN" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="53?-03" device="261" package3d_urn="urn:adsk.eagle:package:8078536/1"/>
 </parts>
 <sheets>
@@ -2443,42 +2443,42 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <instance part="V_OUT" gate="-12" x="15.24" y="-12.7" smashed="yes">
 <attribute name="NAME" x="17.78" y="-13.462" size="1.524" layer="95"/>
 </instance>
-<instance part="X4" gate="-1" x="43.18" y="-12.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="40.64" y="-11.938" size="1.524" layer="95" rot="R180"/>
-<attribute name="VALUE" x="43.942" y="-14.097" size="1.778" layer="96" rot="R180"/>
+<instance part="CAN/UART/I2C" gate="-1" x="50.8" y="-12.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="48.26" y="-11.938" size="1.524" layer="95" rot="R180"/>
+<attribute name="VALUE" x="51.562" y="-14.097" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="X4" gate="-2" x="43.18" y="-10.16" smashed="yes" rot="R180">
-<attribute name="NAME" x="40.64" y="-9.398" size="1.524" layer="95" rot="R180"/>
+<instance part="CAN/UART/I2C" gate="-2" x="50.8" y="-10.16" smashed="yes" rot="R180">
+<attribute name="NAME" x="48.26" y="-9.398" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X4" gate="-3" x="43.18" y="-7.62" smashed="yes" rot="R180">
-<attribute name="NAME" x="40.64" y="-6.858" size="1.524" layer="95" rot="R180"/>
+<instance part="CAN/UART/I2C" gate="-3" x="50.8" y="-7.62" smashed="yes" rot="R180">
+<attribute name="NAME" x="48.26" y="-6.858" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X4" gate="-4" x="43.18" y="-5.08" smashed="yes" rot="R180">
-<attribute name="NAME" x="40.64" y="-4.318" size="1.524" layer="95" rot="R180"/>
+<instance part="CAN/UART/I2C" gate="-4" x="50.8" y="-5.08" smashed="yes" rot="R180">
+<attribute name="NAME" x="48.26" y="-4.318" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X4" gate="-5" x="43.18" y="-2.54" smashed="yes" rot="R180">
-<attribute name="NAME" x="40.64" y="-1.778" size="1.524" layer="95" rot="R180"/>
+<instance part="CAN/UART/I2C" gate="-5" x="50.8" y="-2.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="48.26" y="-1.778" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X4" gate="-6" x="43.18" y="0" smashed="yes" rot="R180">
-<attribute name="NAME" x="40.64" y="0.762" size="1.524" layer="95" rot="R180"/>
+<instance part="CAN/UART/I2C" gate="-6" x="50.8" y="0" smashed="yes" rot="R180">
+<attribute name="NAME" x="48.26" y="0.762" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X4" gate="-7" x="43.18" y="2.54" smashed="yes" rot="R180">
-<attribute name="NAME" x="40.64" y="3.302" size="1.524" layer="95" rot="R180"/>
+<instance part="CAN/UART/I2C" gate="-7" x="50.8" y="2.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="48.26" y="3.302" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X4" gate="-8" x="43.18" y="5.08" smashed="yes" rot="R180">
-<attribute name="NAME" x="40.64" y="5.842" size="1.524" layer="95" rot="R180"/>
+<instance part="CAN/UART/I2C" gate="-8" x="50.8" y="5.08" smashed="yes" rot="R180">
+<attribute name="NAME" x="48.26" y="5.842" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X4" gate="-9" x="43.18" y="7.62" smashed="yes" rot="R180">
-<attribute name="NAME" x="40.64" y="8.382" size="1.524" layer="95" rot="R180"/>
+<instance part="CAN/UART/I2C" gate="-9" x="50.8" y="7.62" smashed="yes" rot="R180">
+<attribute name="NAME" x="48.26" y="8.382" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X4" gate="-10" x="43.18" y="10.16" smashed="yes" rot="R180">
-<attribute name="NAME" x="40.64" y="10.922" size="1.524" layer="95" rot="R180"/>
+<instance part="CAN/UART/I2C" gate="-10" x="50.8" y="10.16" smashed="yes" rot="R180">
+<attribute name="NAME" x="48.26" y="10.922" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X4" gate="-11" x="43.18" y="12.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="40.64" y="13.462" size="1.524" layer="95" rot="R180"/>
+<instance part="CAN/UART/I2C" gate="-11" x="50.8" y="12.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="48.26" y="13.462" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X4" gate="-12" x="43.18" y="15.24" smashed="yes" rot="R180">
-<attribute name="NAME" x="40.64" y="16.002" size="1.524" layer="95" rot="R180"/>
+<instance part="CAN/UART/I2C" gate="-12" x="50.8" y="15.24" smashed="yes" rot="R180">
+<attribute name="NAME" x="48.26" y="16.002" size="1.524" layer="95" rot="R180"/>
 </instance>
 <instance part="BAT_IN" gate="-1" x="50.8" y="55.88" smashed="yes" rot="R180">
 <attribute name="NAME" x="48.26" y="56.642" size="1.524" layer="95" rot="R180"/>
@@ -2502,9 +2502,9 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <junction x="12.7" y="40.64"/>
 </segment>
 <segment>
-<pinref part="X4" gate="-3" pin="S"/>
-<wire x1="45.72" y1="-7.62" x2="73.66" y2="-7.62" width="0.1524" layer="91"/>
-<label x="73.66" y="-7.62" size="1.778" layer="95" xref="yes"/>
+<pinref part="CAN/UART/I2C" gate="-3" pin="S"/>
+<wire x1="53.34" y1="-7.62" x2="81.28" y2="-7.62" width="0.1524" layer="91"/>
+<label x="81.28" y="-7.62" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="AUX_3" class="0">
@@ -2515,9 +2515,9 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <junction x="12.7" y="38.1"/>
 </segment>
 <segment>
-<pinref part="X4" gate="-4" pin="S"/>
-<wire x1="45.72" y1="-5.08" x2="48.26" y2="-5.08" width="0.1524" layer="91"/>
-<label x="48.26" y="-5.08" size="1.778" layer="95" xref="yes"/>
+<pinref part="CAN/UART/I2C" gate="-4" pin="S"/>
+<wire x1="53.34" y1="-5.08" x2="55.88" y2="-5.08" width="0.1524" layer="91"/>
+<label x="55.88" y="-5.08" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="AUX_2" class="0">
@@ -2528,9 +2528,9 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <wire x1="-17.78" y1="35.56" x2="12.7" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X4" gate="-5" pin="S"/>
-<wire x1="45.72" y1="-2.54" x2="73.66" y2="-2.54" width="0.1524" layer="91"/>
-<label x="73.66" y="-2.54" size="1.778" layer="95" xref="yes"/>
+<pinref part="CAN/UART/I2C" gate="-5" pin="S"/>
+<wire x1="53.34" y1="-2.54" x2="81.28" y2="-2.54" width="0.1524" layer="91"/>
+<label x="81.28" y="-2.54" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="AUX_1" class="0">
@@ -2541,9 +2541,9 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <wire x1="12.7" y1="33.02" x2="7.62" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X4" gate="-6" pin="S"/>
-<wire x1="45.72" y1="0" x2="48.26" y2="0" width="0.1524" layer="91"/>
-<label x="48.26" y="0" size="1.778" layer="95" xref="yes"/>
+<pinref part="CAN/UART/I2C" gate="-6" pin="S"/>
+<wire x1="53.34" y1="0" x2="55.88" y2="0" width="0.1524" layer="91"/>
+<label x="55.88" y="0" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="UART1_TX" class="0">
@@ -2554,9 +2554,9 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <wire x1="12.7" y1="30.48" x2="-17.78" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X4" gate="-7" pin="S"/>
-<wire x1="45.72" y1="2.54" x2="73.66" y2="2.54" width="0.1524" layer="91"/>
-<label x="73.66" y="2.54" size="1.778" layer="95" xref="yes"/>
+<pinref part="CAN/UART/I2C" gate="-7" pin="S"/>
+<wire x1="53.34" y1="2.54" x2="81.28" y2="2.54" width="0.1524" layer="91"/>
+<label x="81.28" y="2.54" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="UART1_RX" class="0">
@@ -2567,9 +2567,9 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <wire x1="12.7" y1="27.94" x2="7.62" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X4" gate="-8" pin="S"/>
-<wire x1="45.72" y1="5.08" x2="48.26" y2="5.08" width="0.1524" layer="91"/>
-<label x="48.26" y="5.08" size="1.778" layer="95" xref="yes"/>
+<pinref part="CAN/UART/I2C" gate="-8" pin="S"/>
+<wire x1="53.34" y1="5.08" x2="55.88" y2="5.08" width="0.1524" layer="91"/>
+<label x="55.88" y="5.08" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="UART0_TX" class="0">
@@ -2580,9 +2580,9 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <wire x1="12.7" y1="25.4" x2="-17.78" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X4" gate="-9" pin="S"/>
-<wire x1="45.72" y1="7.62" x2="73.66" y2="7.62" width="0.1524" layer="91"/>
-<label x="73.66" y="7.62" size="1.778" layer="95" xref="yes"/>
+<pinref part="CAN/UART/I2C" gate="-9" pin="S"/>
+<wire x1="53.34" y1="7.62" x2="81.28" y2="7.62" width="0.1524" layer="91"/>
+<label x="81.28" y="7.62" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="UART0_RX" class="0">
@@ -2593,9 +2593,9 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <wire x1="12.7" y1="22.86" x2="7.62" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X4" gate="-10" pin="S"/>
-<wire x1="45.72" y1="10.16" x2="48.26" y2="10.16" width="0.1524" layer="91"/>
-<label x="48.26" y="10.16" size="1.778" layer="95" xref="yes"/>
+<pinref part="CAN/UART/I2C" gate="-10" pin="S"/>
+<wire x1="53.34" y1="10.16" x2="55.88" y2="10.16" width="0.1524" layer="91"/>
+<label x="55.88" y="10.16" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VAUX" class="0">
@@ -2723,30 +2723,30 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 </net>
 <net name="I2C-SDA" class="0">
 <segment>
-<pinref part="X4" gate="-2" pin="S"/>
-<wire x1="45.72" y1="-10.16" x2="48.26" y2="-10.16" width="0.1524" layer="91"/>
-<label x="48.26" y="-10.16" size="1.778" layer="95" xref="yes"/>
+<pinref part="CAN/UART/I2C" gate="-2" pin="S"/>
+<wire x1="53.34" y1="-10.16" x2="55.88" y2="-10.16" width="0.1524" layer="91"/>
+<label x="55.88" y="-10.16" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="I2C-SCL" class="0">
 <segment>
-<pinref part="X4" gate="-1" pin="S"/>
-<wire x1="45.72" y1="-12.7" x2="73.66" y2="-12.7" width="0.1524" layer="91"/>
-<label x="73.66" y="-12.7" size="1.778" layer="95" xref="yes"/>
+<pinref part="CAN/UART/I2C" gate="-1" pin="S"/>
+<wire x1="53.34" y1="-12.7" x2="81.28" y2="-12.7" width="0.1524" layer="91"/>
+<label x="81.28" y="-12.7" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CAN-H" class="0">
 <segment>
-<pinref part="X4" gate="-11" pin="S"/>
-<wire x1="45.72" y1="12.7" x2="73.66" y2="12.7" width="0.1524" layer="91"/>
-<label x="73.66" y="12.7" size="1.778" layer="95" xref="yes"/>
+<pinref part="CAN/UART/I2C" gate="-11" pin="S"/>
+<wire x1="53.34" y1="12.7" x2="81.28" y2="12.7" width="0.1524" layer="91"/>
+<label x="81.28" y="12.7" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CAN-L" class="0">
 <segment>
-<pinref part="X4" gate="-12" pin="S"/>
-<wire x1="45.72" y1="15.24" x2="48.26" y2="15.24" width="0.1524" layer="91"/>
-<label x="48.26" y="15.24" size="1.778" layer="95" xref="yes"/>
+<pinref part="CAN/UART/I2C" gate="-12" pin="S"/>
+<wire x1="53.34" y1="15.24" x2="55.88" y2="15.24" width="0.1524" layer="91"/>
+<label x="55.88" y="15.24" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="5V0_IN" class="0">
