@@ -10,3 +10,7 @@ The KiCAD's schematic includes all the necessary pins assignments to speedup the
 
 ![](img/KiCAD_schematic.png)
 ![](img/KiCAD_3D_view.png)
+
+# Last update 10/21/2021# 
+Output voltage pin update on StackBreakout with Molex picoBlade
+ 
