@@ -2028,20 +2028,6 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <wire x1="-139.7" y1="68.58" x2="-167.64" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="I2C2_SDA2" class="0">
-<segment>
-<pinref part="J1" gate="A" pin="9"/>
-<wire x1="-139.7" y1="66.04" x2="-142.24" y2="66.04" width="0.1524" layer="91"/>
-<label x="-142.24" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="I2C2_SCL2" class="0">
-<segment>
-<pinref part="J1" gate="A" pin="11"/>
-<wire x1="-139.7" y1="63.5" x2="-167.64" y2="63.5" width="0.1524" layer="91"/>
-<label x="-167.64" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="RX" class="0">
 <segment>
 <pinref part="J1" gate="A" pin="19"/>
@@ -2360,6 +2346,20 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <pinref part="J1" gate="B" pin="52"/>
 <wire x1="-104.14" y1="-10.16" x2="-99.06" y2="-10.16" width="0.1524" layer="91"/>
 <label x="-99.06" y="-10.16" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="I2C2_SDA2" class="0">
+<segment>
+<pinref part="J1" gate="A" pin="11"/>
+<wire x1="-139.7" y1="63.5" x2="-167.64" y2="63.5" width="0.1524" layer="91"/>
+<label x="-167.64" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="I2C2_SCL2" class="0">
+<segment>
+<pinref part="J1" gate="A" pin="9"/>
+<wire x1="-139.7" y1="66.04" x2="-147.32" y2="66.04" width="0.1524" layer="91"/>
+<label x="-147.32" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
